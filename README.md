@@ -3,7 +3,7 @@
 </p>
 
 <h1>Creating Virtual Machines in Azure</h1>
-This tutorial outlines the process and installation of Windows and Linux Virtual Machines in Azure.  .<br />
+This tutorial outlines the process and installation of Windows and Linux Virtual Machines in Azure.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -13,19 +13,19 @@ This tutorial outlines the process and installation of Windows and Linux Virtual
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows (Windows 10 Enterprise)
+- Linux (ubuntu 22.04)
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Register account in Azure
+- Create a Resource Group
+- Create Windows Virtual Machine
+- Create Linux Virtual Machine
+
 
 <h2>Installation Steps</h2>
 You must register for an Azure account in order to construct virtual machines. Examine the various alternatives that best fit your company or the projects you are working on. After creating your account you can create a Resource Group. First you have to create Resource Group, to start you can click in the search bar or click <img width="47" height="16" alt="image" src="https://github.com/user-attachments/assets/03be3787-9799-43fe-8ada-89b456bab4c3" />
@@ -90,6 +90,12 @@ Once completed you can go to Resources and find the public IP address that will 
 
 <p align left>
 <img width="582" height="189" alt="Screenshot 2025-11-25 143654" src="https://github.com/user-attachments/assets/de627f54-4cc8-4702-a528-a973bd6fa266" />
+
+Virtual Machines in Windows and Linux has been created and are ready to test the traffic.
+
+<p aling left>
+<img width="508" height="139" alt="image" src="https://github.com/user-attachments/assets/91dde449-5da4-412a-b81a-1df8dd213e72" />
+
 
 
 <br /># creating-vms
