@@ -81,10 +81,48 @@ After validation passed, click on Create at the bottom of the page to initialize
 <p align left>
 <img width="451" height="454" alt="Screenshot 2025-11-25 134704" src="https://github.com/user-attachments/assets/413c969e-8f81-45de-a779-148ac91090c5" />
 
+<h2>Create Linux Virtual Machine</h2>
+
+Name your Resource Group exactly the same you used in your Windows Virtual Machine
+<p align left>
+<img width="383" height="233" alt="image" src="https://github.com/user-attachments/assets/cb3547e4-19fd-4065-a181-7b46232a3412" />
+
+Click on Create
+<p align left>
+<img width="226" height="254" alt="image" src="https://github.com/user-attachments/assets/65428780-18bb-4b2b-8849-750fe30011f1" />
+
+After created the Resource Group, come back to your dashboard and click on Resource Group
+<p align left>
+<img width="803" height="376" alt="Screenshot 2025-11-25 122156" src="https://github.com/user-attachments/assets/870976e3-abd7-4c13-b946-1122185697e2" />
+<img width="662" height="211" alt="image" src="https://github.com/user-attachments/assets/3d3b4b35-8e7a-4592-a216-dd7be713558f" />
+
+After created the Resource Group you can continue with the second step which is creating a Virtual Machine, to do that you can click again the search bar and look for Virtual Machines or in the dashboard click on Virtual Machines.
+<p align left>
+<img width="586" height="203" alt="Screenshot 2025-11-25 123544" src="https://github.com/user-attachments/assets/429c2ec6-fb03-4ac5-826e-e3c874c3e540" />
+
+Choose the first option
+<p align left> 
+<img width="686" height="386" alt="Screenshot 2025-11-25 123917" src="https://github.com/user-attachments/assets/85acb37f-f7e0-42f5-b547-0f214d793d70" />
+
+Put in the appropriate subscription, in the resource group (RG-Network-Activities) click on the one you just created, Choose a name for your Virtual Machine (windows-vm in this case), for Region choose the same you use in the Resource Group, for Image use Ubuntu Server 24.04 LTS - x64 Gen2
+<p align left>
+<img width="389" height="460" alt="Screenshot 2025-12-03 155650" src="https://github.com/user-attachments/assets/72a4679e-78d1-4ddd-b223-e49eaeb0b3f0" />
+<img width="345" height="320" alt="Screenshot 2025-12-03 160356" src="https://github.com/user-attachments/assets/5d962e81-93dd-4555-a39f-89b9d5db8733" />
+
+Click Next for Network, then click on Review + Create
+<p align left>
+<img width="357" height="449" alt="image" src="https://github.com/user-attachments/assets/c61310db-13f1-47f1-b52e-5f2bcad90417" />
+
+After validation passed, click on Create at the bottom of the page to initialize deployment of the Virtual Machine
+<p align left>
+<img width="349" height="443" alt="image" src="https://github.com/user-attachments/assets/2c98eddc-e47a-48bf-8c7f-ecd4a2129be0" />
+
 When deployment has been completed go to Resources
 
 <p aling left>
 <img width="460" height="224" alt="image" src="https://github.com/user-attachments/assets/e424c634-6098-45a6-8fc9-759c13c88aa2" />
+<img width="948" height="239" alt="Screenshot 2025-12-03 161524" src="https://github.com/user-attachments/assets/6440f269-b4b9-4c33-93d6-ac4ef4ef1f54" />
+
 
 Once completed you can go to Resources and find the public IP address that will be use to check traffic between the 2 Virtual Machines, using Remote Desktop Connection (RDP)
 
